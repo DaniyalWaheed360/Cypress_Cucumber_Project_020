@@ -15,6 +15,6 @@ When("I click the admin login button", () => {
     AdminLoginPage.clickLoginButton();
 });
 
-Then("I should be redirected to the dashboard", () => {
+Then("I should be redirect to the dashboard", () => {
     AdminLoginPage.verifyAdminDashboard();
 });

@@ -15,7 +15,7 @@ Feature: Login
     Given I open the Login page
     When I enter admin "<email>" and "<password>"
     When I click the admin login button
-    Then I should be redirected to the dashboard
+    Then I should be redirect to the dashboard
     
   Examples:
     | role           | email                               | password    |
