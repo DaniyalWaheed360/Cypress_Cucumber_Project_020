@@ -16,5 +16,6 @@ When("I click the admin login button", () => {
 });
 
 Then("I should be redirect to the dashboard", () => {
+    //check if the dashboard is displayed after login
     AdminLoginPage.verifyAdminDashboard();
 });

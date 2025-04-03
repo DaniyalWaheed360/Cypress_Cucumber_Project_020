@@ -67,6 +67,6 @@ When("I click the login button", () => {
     LoginPage.clickLoginButton(); // Click the login button using the method from LoginPage
 });
 
-Then("I should be redirected to the HomePage", () => {
+Then("I should be redirected to the HomePage", () => {//check if the dashboard is displayed after login
     LoginPage.verifyDashboard();
 });
