@@ -26,12 +26,12 @@ class Login {
         });
     }
 
-    enterEmail(emailAddress) {
+    enterEmail(emailAddress: string) {
         cy.get('.upInputs > input', { timeout: 15000 }).clear().type(emailAddress);
 
     }
 
-    enterPassword(password) {
+    enterPassword(password: string) {
         cy.get('#inputField2', { timeout: 10000 }).clear().type(password, { log: false });
     }
 
